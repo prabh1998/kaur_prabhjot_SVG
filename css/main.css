@@ -31,7 +31,11 @@ body{ font-size: 16px; }
 
  .st0:hover {opacity:1; fill:#FFFFFF; }
 
- #badge:hover 
+ #badge:hover
  {
    opacity:0.1; fill: yellow;
  }
+/* THESE ARE DYNAMIC STYLES*/
+.selected{ color:blue !important;
+text-transform: uppercase;
+font-style: italic;}
